@@ -7,13 +7,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link AddnewsFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class AddnewsFragment extends Fragment {
+
+    private ImageView addNewsPosterImage;
+
     public AddnewsFragment() {
         // Required empty public constructor
     }
@@ -27,6 +26,16 @@ public class AddnewsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_addnews, container, false);
+        View view = inflater.inflate(R.layout.fragment_addnews, container, false);
+
+        addNewsPosterImage = view.findViewById(R.id.addImageButton);
+
+        chooseImage();
+
+        return view;
+    }
+
+    private void chooseImage() {
+
     }
 }
