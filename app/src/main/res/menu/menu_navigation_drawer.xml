@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news_dest"
+            android:icon="@drawable/ic_newsarticle_black_24dp"
+            android:title="News" />
+        <item
+            android:id="@+id/menu_dest"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Meny" />
+        <item
+            android:id="@+id/order_dest"
+            android:icon="@drawable/ic_order_black_24dp"
+            android:title="Operasjon bestilling" />
+        <item
+            android:id="@+id/addnews_dest"
+            android:icon="@drawable/ic_addnews_black_24dp"
+            android:title="Operasjon bestilling" />
+    </group>
+</menu>

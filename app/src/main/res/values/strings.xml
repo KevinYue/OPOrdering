@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OPOrdering</string>
+    <string name="news">News</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu">Meny</string>
+    <string name="meny">Meny</string>
+    <string name="op_bestilling">OP bestilling</string>
+    <string name="moss_sykehus_stfold_kj_kkenet">Moss Sykehus Østfold Kjøkkenet</string>
+    <string name="operasjon">Operasjon</string>
+    <string name="legg_til_tittel">Legg til tittel</string>
+    <string name="legg_til_nyheter">Legg til nyheter</string>
+    <string name="beskrivelse">Beskrivelse</string>
+    <string name="news_poster">News poster</string>
+    <string name="news_title">News Title</string>
+    <string name="beskrivelse">Beskrivelse</string>
+    <string name="dato">Dato</string>
+</resources>
