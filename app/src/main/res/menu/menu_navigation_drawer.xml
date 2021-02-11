@@ -17,6 +17,6 @@
         <item
             android:id="@+id/addnews_dest"
             android:icon="@drawable/ic_addnews_black_24dp"
-            android:title="Operasjon bestilling" />
+            android:title="Legg til nyheter" />
     </group>
 </menu>

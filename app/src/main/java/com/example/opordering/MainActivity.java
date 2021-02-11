@@ -94,13 +94,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Getting which destination item we are pressed
         switch (item.getItemId()) {
             case R.id.news_dest:
-                Toast.makeText(this, "news list", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "nyheter liste", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.menu_dest:
-                Toast.makeText(this, "menu list", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "menu liste", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.order_dest:
-                Toast.makeText(this, "operasjon list", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "operasjon liste", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.addnews_dest:
+                Toast.makeText(this, "legg til nyheter liste", Toast.LENGTH_SHORT).show();
         }
         return true;
     }

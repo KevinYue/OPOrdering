@@ -27,5 +27,14 @@
         android:id="@+id/order_dest"
         android:name="com.example.opordering.OperasjonFragment"
         android:label="fragment_operasjon"
-        tools:layout="@layout/fragment_operasjon" />
+        tools:layout="@layout/fragment_operasjon" >
+        <action
+            android:id="@+id/action_order_dest_to_addnewsFragment"
+            app:destination="@id/addnews_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/addnews_dest"
+        android:name="com.example.opordering.AddnewsFragment"
+        android:label="fragment_addnews"
+        tools:layout="@layout/fragment_addnews" />
 </navigation>
